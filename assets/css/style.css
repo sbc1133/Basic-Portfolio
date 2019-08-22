@@ -7,18 +7,19 @@ a {
     color: inherit;
     text-decoration: none;
   }
-  a:hover{
+  a:hover {
     font-weight: bolder;
     font-size: 120%;
   }
-.topbar-container{
+.topbar-container {
     background-color:#ffff;
+    margin: 5px 0px 5px 0px;
 }
-.navbar-container{
+.navbar-container {
     width: 960px;
     margin-left: 160px;
 }
-#nav-left{
+#nav-left {
    display:inline-block;
    width:30%;
    text-align: center;
@@ -28,12 +29,12 @@ a {
    border-radius: 50%;
 }
 
-#nav-right{
+#nav-right {
     display:inline-block;
     padding-left: 320px;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin:0px;
 }
@@ -43,17 +44,15 @@ ul{
     border-right: 2px solid lightgray;
     color: grey;
 }
-.main-container{
-    background-image: url("ep_naturalwhite.png");
-    height: 80vh;
-    
+.main-container {
+    background-image: url("../images/ep_naturalwhite.png");
+    height: 80vh; 
     
 }
 .main-content{
     display: inline-block;
     width: 960px;
-    margin-left: 160px;
-    
+    margin-left: 160px; 
 }
 
 #bio-image {
@@ -64,6 +63,7 @@ ul{
     border-radius: 50%;
     -webkit-shape-outside:circle();
     shape-outside:circle();
+    margin-right:2rem;
 }
 .footer-container{
     height:65px;
